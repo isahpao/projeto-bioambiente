@@ -492,7 +492,7 @@ footer {
 }
 
 footer .social-icons a {
-  color: var(--verde-escuro);
+  color: var(--branco);
   font-size: 22px;
   padding: 10px;
   transition: color 0.3s ease;
@@ -501,6 +501,8 @@ footer .social-icons a {
 footer .social-icons a:hover,
 footer .social-icons a:focus {
   color: var(--branco);
+  transform: scale(1.2);
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 :focus {
